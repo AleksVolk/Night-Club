@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <script src="https://kit.fontawesome.com/0187ecd0e7.js" crossorigin="anonymous"></script>
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Меню</title>
+</head>
+<body>
+    <div class="page">
+
+        <!--HEADER-->
+
+        <header class="header outer" id="header">
+            <div class="container">
+                <div class="header_logo">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="assets/images/logo-sm_portrait.svg" media="(max-width:576px)">
+                            <img src="assets/images/logo.svg" alt="Лого">
+                        </picture>
+                    </a>
+                </div>
+                <div class="header_nav">
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                    <ul class="header_nav-item nav">
+                        <li class="nav_item"><a class="nav_link" href="index.html">Главная</a></li>
+                        <li class="nav_item"><a class="nav_link" href="menu.html">Меню</a></li>
+                        <li class="nav_item nav_item--subnav">
+                            <a class="nav_link has-subnav" href="#">Ещё...</a>
+                            <ul class="subnav">
+                                <li class="subnav_item"><a class="nav_link subnav_link" href="photoreports.html">Фотоотчёты</a></li>
+                                <li class="subnav_item"><a class="nav_link subnav_link" href="rules.html">Правила заведения</a></li>      
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header_nav-item mobile-nav">
+                        <li class="nav_item"><a class="nav_link" href="index.html">Главная</a></li>
+                        <li class="nav_item"><a class="nav_link" href="menu.html">Меню</a></li>
+                        <li class="nav_item"><a class="nav_link" href="photoreports.html">Фотоотчёты</a></li>
+                        <li class="nav_item"><a class="nav_link" href="rules.html">Правила заведения</a></li>
+                        <li><button class="btn btn-red mobile-nav-btn">Забронировать</button></li>
+                    </ul>
+                    <a class="header_nav-item header_nav-call" href="#" data-modal="contact-modal"><i class="fas fa-phone-alt"></i></a>
+                    <button class="header_nav-item nav-btn btn btn-red">Забронировать</button>
+                </div>
+            </div>
+           
+        </header>
+
+        <!--MAIN-->
+
+        <div class="main">
+            
+            <!--NEWS-PROMO-->
+            
+            <section class="news-promo news-promo--menu outer" id="slider-news">
+                <div class="container">
+                    <div class="news-promo_title">Новости и акции</div>
+                        <div class="slider" id="news-promo-slider">
+                            <div class="slider_item">
+                                <div class="slider_item-hover"><span class="slider_item-hover_text">Подробнее</span></div>
+                                <a href="#" target="_blank"><img class="slider_item-img" src="assets/images/slide-1.jpg" alt=""></a>
+                            </div>
+                            <div class="slider_item">
+                                <div class="slider_item-hover"><span class="slider_item-hover_text">Подробнее</span></div>
+                                <a href="#" target="_blank"><img class="slider_item-img" src="assets/images/slide-2.jpg" alt=""></a>
+                            </div>
+                            <div class="slider_item">
+                                <div class="slider_item-hover"><span class="slider_item-hover_text">Подробнее</span></div>
+                                <a href="#" target="_blank"><img class="slider_item-img" src="assets/images/slide-3.jpg" alt=""></a>
+                            </div>
+                            <div class="slider_item">
+                                <div class="slider_item-hover"><span class="slider_item-hover_text">Подробнее</span></div>
+                                <a href="#" target="_blank"><img class="slider_item-img" src="assets/images/slide-1.jpg" alt=""></a>
+                            </div>
+                            <div class="slider_item">
+                                <div class="slider_item-hover"><span class="slider_item-hover_text">Подробнее</span></div>
+                                <a href="#" target="_blank"><img class="slider_item-img" src="assets/images/slide-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            
+            <!--MENU-->
+            
+            <section class="menu outer">
+                <div class="container">
+            
+                        <!--MENU-NAV-->
+            
+                        <nav class="menu_nav">
+                        <a href="#menu_main" class="menu_nav-item">Основное меню</a>
+                        <a href="#menu_bar" class="menu_nav-item">Барная карта</a>
+                        </nav>
+            
+                        <!--MENU-CARDS-->
+            
+                        <div class="menu_cards" id="menu-cards">
+            
+                            <!--MENU_MAIN-->
+            
+                            <div id="menu_main" class="menu_cards-item">
+            
+                             <!--MENU_INFO-->
+            
+                            <div class="menu_info">
+                                <div class="menu_filters menu_filters--main">
+                                    <ul class="menu_categories">
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Все">Все блюда</a></li>
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Салаты">Салаты</a></li>
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Роллы">Роллы</a></li>
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Морепродукты">Морепродукты</a></li>
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Холодные закуски">Холодные закуски</a></li> 
+                                        <li class="menu_categories-item"><a class="link" href="#" data-filter="Горячие закуски">Горячие закуски</a></li>
+                                    </ul>
+                                    <div class="menu_filters-toggle">
+                                        <button class="btn btn-red btn-filters" id="btn-filter-main">Фильтры</button>
+                                        <ul class="menu_filters-toggle-list" id="filter-list-main">
+                                            <li class="menu_filters-toggle-list_item" data-dish="1">Вегетерианские блюда</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="2">Блюда до 400₽</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="3">Блюда до 500₽</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="4">Выбор шефа</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="5">Популярные блюда</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="6">Фирменные блюда</li>
+                                            <li class="menu_filters-toggle-list_item" data-dish="7">Блюдо недели</li>
+                                        </ul>
+                                        <ul class="menu_filters-toggle-tags" id="tags-main">
+                                            <li class="menu_filters-toggle-tags_for" data-number="1"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="2"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="3"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="4"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="5"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="6"></li>
+                                            <li class="menu_filters-toggle-tags_for" data-number="7"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                               
+                                <div class="menu_search">
+                                    <div class="menu_search-form">
+                                        <input class="form_control menu_search-input" type="text" placeholder="Поиск...">
+                                        <button class="btn btn-red menu_search-button"></button>
+                                    </div>
+                                </div>
+                            </div>
+            
+                             <!--MENU_DISHES-->
+            
+                            <div class="menu_dishes menu_dishes--dishes">
+                                <a href="#card-1--open" class="menu_dishes-card" data-pid="1" data-cat="Салаты">
+                                        <div class="menu_dishes-card_img"><img src="assets/images/dish.jpg" alt=""></div>
+                                        <div class="menu_dishes-card_info">
+                                            <div class="menu_dishes-card_name">Салат пармиджано</div>
+                                            <div class="menu_dishes-card_kcal">
+                                                <span><b>Ккал</b>: 245</span>
+                                                <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                            </div>
+                                            <div class="menu_dishes-card_more">
+                                                <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                                <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                            </div>
+                                        </div>
+                                </a>                
+                                <div class="menu_dishes-card--open" id="card-1--open">
+                                        <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish.jpg" alt=""></div>
+                                        <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                            <div class="menu_dishes-card_name menu_dishes-card_name--open">Салат пармиджано</div>
+                                            <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                                <span><b>Ккал</b>: 245</span>
+                                                <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                            </div>
+                                           <div class="menu_dishes-card_description">
+                                                Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                                обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                                Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                                представляет собой интересный эксперимент проверки форм развития.
+                                            </div>
+                                            <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                            <ul class="menu_dishes-card_filters">
+                                                <li class="menu_dishes-card_filters-item vegan">Вегатарианские блюда</li>
+                                                <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                                <li class="menu_dishes-card_filters-item">Популярное</li>
+                                                <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                            </ul>
+                                        </div>
+                                        <button class="btn menu_dishes-card_close"></button>
+                                </div>  
+                                <a href="#card-2--open" class="menu_dishes-card" data-pid="2" data-cat="Салаты">
+                                        <div class="menu_dishes-card_img"><img src="assets/images/dish-2.jpg" alt=""></div>
+                                        <div class="menu_dishes-card_info">
+                                            <div class="menu_dishes-card_name">Салат с тигровыми креветками</div>
+                                            <div class="menu_dishes-card_kcal">
+                                                <span><b>Ккал</b>: 245</span>
+                                                <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                            </div>
+                                            <div class="menu_dishes-card_more">
+                                                <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                                <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                            </div>
+                                        </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-2--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-2.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">Салат с тигровыми креветками</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 500₽</li>
+                                            <li class="menu_dishes-card_filters-item">Интересные блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button> 
+                                </div>  
+                                <a href="#card-3--open" class="menu_dishes-card" data-pid="3" data-cat="Салаты">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-3.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">Салат цезарь</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-3--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-3.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">Салат цезарь</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-4--open" class="menu_dishes-card" data-pid="4" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-11.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">КАЛИФОРНИЯ</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-4--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-11.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">КАЛИФОРНИЯ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-5--open" class="menu_dishes-card" data-pid="5" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-10.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">ФИЛАДЕЛЬФИЯ</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-5--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-10.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ФИЛАДЕЛЬФИЯ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Интересные блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 500₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-6--open" class="menu_dishes-card" data-pid="6" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-4.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">ЗАПЕЧЕНЫЙ РОЛЛ СПАЙСИ С ЛОСОСЕМ И УГРЕМ
+                                        </div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>                
+                                <div class="menu_dishes-card--open" id="card-6--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-4.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ЗАПЕЧЕНЫЙ РОЛЛ СПАЙСИ С ЛОСОСЕМ И УГРЕМ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-7--open" class="menu_dishes-card" data-pid="7" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-5.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">КАЛИФОРНИЯ ХОТ</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-7--open" >
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-5.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">КАЛИФОРНИЯ ХОТ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-8--open" class="menu_dishes-card" data-pid="8" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-6.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">ФИЛАДЕЛЬФИЯ УНАГИ</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-8--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-6.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ФИЛАДЕЛЬФИЯ УНАГИ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Интересные блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 500₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-9--open" class="menu_dishes-card" data-pid="9" data-cat="Роллы">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/dish-12.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info">
+                                        <div class="menu_dishes-card_name">УНАГИ МАКИ</div>
+                                        <div class="menu_dishes-card_kcal">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>           
+                                <div class="menu_dishes-card--open" id="card-9--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/dish-12.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">УНАГИ МАКИ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            <span><b>Ккал</b>: 245</span>
+                                            <span><b>БЖУ</b>: 19,8/12,5/0</span>
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item vegan">Вегетерианские блюда</li>
+                                            <li class="menu_dishes-card_filters-item">Выбор шефа</li>
+                                            <li class="menu_dishes-card_filters-item">Популярное</li>
+                                            <li class="menu_dishes-card_filters-item">Блюда до 400₽</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>  
+                            </div>
+                                <div class="show-more" id="show-more-dishes"><buttom class="btn btn-red btn-more">Показать еще</buttom></div>
+                            </div>
+            
+                           
+            
+                             <!--MENU_BAR-->
+                            <div id="menu_bar" class="menu_cards-item">
+                                
+                            <div class="menu_info">
+                                <div class="menu_filters menu_filters--bar">
+                                    <div class="menu_categories menu_categories--bar">
+                                        <ul class="menu_categories-1">
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Все">Все напитки</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Коктейли">Коктейли</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Безалкагольные коктейли">Безалкагольные коктейли</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Шоты">Сеты шотов</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Чай">Чай</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Кофе">Кофе</a></li>
+                                        </ul>
+                                        <ul class="menu_categories-2">
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Вино">Вино</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Шампанское">Шапмпанское</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Текила">Текила</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#"data-filter="Ром">Ром</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Коньяк">Коньяк</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Виски">Виски</a></li>
+                                            <li class="menu_categories-item"><a class="link" href="#" data-filter="Холодные напитки">Холодные напитки</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu_filters-toggle">
+                                        <button class="btn btn-red btn-filters" id="btn-filter-bar">Фильтры</button>
+                                        <ul class="menu_filters-toggle-list" id="filter-list-bar">
+                                            <li class="menu_filters-toggle-list_item" data-drink="1">Мохито</li>
+                                            <li class="menu_filters-toggle-list_item" data-drink="2">Шоты до 400₽</li>
+                                            <li class="menu_filters-toggle-list_item" data-drink="3">Шоты до 500₽</li>
+                                            <li class="menu_filters-toggle-list_item" data-drink="4">Популярные коктейли</li>
+                                            <li class="menu_filters-toggle-list_item" data-drink="5">Безалкагольные коктейли</li>
+                                        </ul>
+                                        <ul class="menu_filters-toggle-tags" id="tags-bar">
+                                            <div class="menu_filters-tags_for" data-count="1"></div>
+                                            <div class="menu_filters-tags_for" data-count="2"></div>
+                                            <div class="menu_filters-tags_for" data-count="3"></div>
+                                            <div class="menu_filters-tags_for" data-count="4"></div>
+                                            <div class="menu_filters-tags_for" data-count="5"></div>
+                                        </ul>
+                                    </div>
+                                </div>
+                               
+                                <div class="menu_search">
+                                    <div class="menu_search-form">
+                                        <input class="form_control menu_search-input" type="text" placeholder="Поиск...">
+                                        <button class="btn btn-red menu_search-button"></button>
+                                    </div>
+                                </div>
+                            </div>
+            
+                             <!--MENU_DRINKS-->
+            
+                            <div class="menu_dishes menu_dishes--drinks">
+                                <a href="#card-bar-1--open" class="menu_dishes-card" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">Kaif</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-1--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">Kaif</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-2--open" class="menu_dishes-card" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-2.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">Старый немец</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Olmeca Chocolate, Martini Bitter, Cola, сироп
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-2--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-2.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">Старый немец</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Olmeca Chocolate, Martini Bitter, Cola, сироп
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-3--open" class="menu_dishes-card" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-3.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">Кловер клаб</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Джин Barrister, сироп, сок лимона, белок
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>             
+                                <div class="menu_dishes-card--open" id="card-bar-3--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-3.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">Кловер клаб</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Джин Barrister, сироп, сок лимона, белок
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-4--open" class="menu_dishes-card"  data-pid="4" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-5.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">КРОВЬ И ПЕСОК</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            William Lawson s, Мартини Россо, Ликёр Мараскино, Апельсиновый сок.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-4--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-5.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">КРОВЬ И ПЕСОК</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            William Lawson s, Мартини Россо, Ликёр Мараскино, Апельсиновый сок.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-5--open" class="menu_dishes-card" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-6.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">ЦИТРУСОВОЕ НАСЛАЖДЕНИЕ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Мартини битр, Трипл сек, Сок Грейпфрута, Ангастура, Лимонный фреш, Тоник.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-5--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-6.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ЦИТРУСОВОЕ НАСЛАЖДЕНИЕ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Мартини битр, Трипл сек, Сок Грейпфрута, Ангастура, Лимонный фреш, Тоник.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+            
+                                <a href="#card-bar-6--open" class="menu_dishes-card" data-cat="Коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-4.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">BAZELEK GIN MIX</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Джин Barrister, Фреш лимона, Сироп бузины, Базилик.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>359₽</b>/100<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-6--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-4.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">BAZELEK GIN MIX</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Джин Barrister, Фреш лимона, Сироп бузины, Базилик.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-7--open" class="menu_dishes-card" data-cat="Безалкагольные коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-7.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">ПИНА КОЛАДА Б/А</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Кокосовый сироп, Сливки 22%, Сок ананаса.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>80₽</b>/150<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-7--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-7.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ПИНА КОЛАДА Б/А</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Кокосовый сироп, Сливки 22%, Сок ананаса.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-8--open" class="menu_dishes-card" data-cat="Безалкагольные коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-8.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">МОХИТО Б/А</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Мята, Лайм, Сахарный сироп, Содовая.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>90₽</b>/130<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-8--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-8.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">МОХИТО Б/А</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Мята, Лайм, Сахарный сироп, Содовая.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+                                <a href="#card-bar-9--open" class="menu_dishes-card" data-cat="Безалкагольные коктейли">
+                                    <div class="menu_dishes-card_img"><img src="assets/images/bar-9.jpg" alt=""></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--bar">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--bar">ЕЖЕВИЧНЫЙ СЛИНГ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--bar">
+                                            Сироп Ежевики, Сок апельсина, Сок Лимона, Содовая.
+                                        </div>
+                                        <div class="menu_dishes-card_more">
+                                            <div class="menu_dishes-card_price"><b>70₽</b>/169<span>г</span>.</div>
+                                            <button class="btn btn-red menu_dishes-card_btn">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="menu_dishes-card--open" id="card-bar-9--open">
+                                    <div class="menu_dishes-card_img menu_dishes-card_img--open"><img src="assets/images/bar-9.jpg" alt="assets/images/dish-alt.png"></div>
+                                    <div class="menu_dishes-card_info menu_dishes-card_info--open">
+                                        <div class="menu_dishes-card_name menu_dishes-card_name--open">ЕЖЕВИЧНЫЙ СЛИНГ</div>
+                                        <div class="menu_dishes-card_kcal menu_dishes-card_kcal--open">
+                                            Сироп Ежевики, Сок апельсина, Сок Лимона, Содовая.
+                                        </div>
+                                       <div class="menu_dishes-card_description">
+                                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                                            обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.
+                                            Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                                            представляет собой интересный эксперимент проверки форм развития.
+                                        </div>
+                                        <div class="menu_dishes-card_price menu_dishes-card_price--open"><b>359₽</b>/100<span>г</span>.</div>
+                                        <ul class="menu_dishes-card_filters">
+                                            <li class="menu_dishes-card_filters-item">Популярные коктейли</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn menu_dishes-card_close"></button>
+                                </div>
+            
+                            </div>
+            
+                            <div class="show-more" id="show-more-drinks"><buttom class="btn btn-red btn-more">Показать еще</buttom></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <!--FOOTER-->
+
+        <footer class="footer outer">
+            <div class="container">
+                <div class="footer_content">
+                <div class="footer_logo">
+                    <a href="index.html"><img src="assets/images/logo.svg" alt="Лого"></a>
+                </div>
+                    
+                        <div class="footer_nav">
+                            <ul class="footer_nav-list">
+                                <li class="footer_nav-item"><a class="link footer_link" href="index.html">Главная</a></li>
+                                
+                                <li class="footer_nav-item"><a class="link footer_link" href="#">Акции</a></li>
+                                <li class="footer_nav-item"><a class="link footer_link" href="photoreports.html">Фототчеты</a></li>
+                                <li class="footer_nav-item"><a class="link footer_link" href="menu.html">Меню</a></li>
+                                <li class="footer_nav-item"><a class="link footer_link" href="rules.html">Интерьер</a></li>
+                                <li class="footer_nav-item"><a class="link footer_link" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="footer_contacts">
+                    <div class="footer_contacts-number">8 (800) 999-99-99</div>
+                    <div class="footer_contacts-subtitle">Бронь столов с 09:00 до 19:00</div>
+                        <ul class="footer_contacts-messengers">
+                            <li class="contact_item"><a class="contact_item-link" href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                            <li class="contact_item"><a class="contact_item-link" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                            <li class="contact_item"><a class="contact_item-link"href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                </div>    
+            </div>
+            
+            <div class="container-2">
+                <div class="footer_security">
+                    <ul class="footer_subnav">
+                        <li class="footer_subnav-item"><a class="footer_subnav-link" href=#>Политика конфидециальности</a></li>
+                        <li class="footer_subnav-item"><a class="footer_subnav-link" href=#>Договор оферты</a></li>
+                    </ul>
+                    <span class="footer_oferta">Информация на сайте не является публичной офертой</span>
+                </div>
+            </div>
+           
+        </footer>
+
+        <!--MODAL-->
+
+        <div class="modal" id="contact-modal">
+            <div class="modal_content">
+                <button class="modal_close"></button>
+                <h1 class="modal_title">Оставьте заявку и мы вам перезвоним</h1>
+        
+                <form class="form" action="/">
+                    <input class="form_control" type="text" placeholder="Вашe Имя">
+                    <input class="form_control" type="text" placeholder="+7 (999) 999-99-99">
+                    <button class="btn btn-red btn-modal" type="submit">Оставить заявку</button>
+                    <div class="form_agreement">
+                        Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!--JS-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
