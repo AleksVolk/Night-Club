@@ -2956,6 +2956,10 @@ body.no-scroll {
     transition: .1s linear;
 }
 
+.menu_filters-toggle-list_item:hover {
+    color: #CB3B48;
+}
+
 .menu_filters-toggle-list_item:focus {
     color: #CB3B48;
 }
@@ -3024,6 +3028,10 @@ body.no-scroll {
     top: -63%;
     font-size: inherit;
     color: inherit;
+}
+
+.hidden {
+    display: none;
 }
 
 .menu_search {
