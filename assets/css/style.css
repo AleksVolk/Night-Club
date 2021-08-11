@@ -3962,7 +3962,7 @@ a:focus {
 .photo-cards {
     position: relative;
     display: grid;
-    grid-template-areas: "lg sm sm" "lg sm sm";
+    grid-template-areas: "1 2 3" "1 4 5";
     grid-gap: 1.5rem;
 }
 
@@ -4003,15 +4003,8 @@ a:focus {
 }
 
 .photo-card--lg {
-    grid-column: lg;
-    grid-row: lg;
-}
-
-@media (max-width: 576px) {
-    .photo-card--lg {
-        grid-column: 1;
-        grid-row: 1;
-    }
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .photo-card:hover, .photo-card:focus {
