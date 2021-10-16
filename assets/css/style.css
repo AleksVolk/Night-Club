@@ -550,7 +550,7 @@ a:focus {
 }
 
 .nav-btn {
-    transition: box-shadow .3s linear;
+    transition: all .3s linear;
 }
 
 .nav-btn:hover, .nav-btn:focus {
@@ -1552,8 +1552,8 @@ a:focus {
 
 .about-us_slider .slick-arrow {
     position: absolute;
-    width: 2.5rem;
-    height: .38rem;
+    width: 2.6rem;
+    height: .4rem;
     bottom: -1.5rem;
     z-index: 50;
     font-size: 0;
@@ -2217,6 +2217,8 @@ a:focus {
     display: block;
     width: 2.47rem;
     height: 2.62rem;
+    padding: 60px;
+    margin: -60px 0 -60px -2.3rem;
     left: 0;
 }
 
@@ -2497,16 +2499,17 @@ a:focus {
 }
 
 .footer_contacts-messengers .contact_item-link {
-    display: block;
-    font-size: 1.3rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 15.85px;
+    text-decoration: none;
     color: #BD2D43;
-    padding: .3em;
-}
-
-@media (max-width: 767px) {
-    .footer_contacts-messengers .contact_item-link {
-        font-size: 1.5rem;
-    }
+    width: 30px;
+    height: 30px;
 }
 
 .footer_contacts-messengers .contact_item:hover, .footer_contacts-messengers .contact_item:focus-within {
@@ -3148,7 +3151,24 @@ a:focus {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;
     text-decoration: none;
+    background: url("../images/dish-musk.png") center;
+    background-size: cover;
     transition: box-shadow .2s linear;
+}
+
+.menu_dishes-card:after {
+    content: url("../images/dish-underline.png");
+    position: absolute;
+    bottom: -.8rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 992px) {
+    .menu_dishes-card:after {
+        content: url("../images/dish-underline-sm.png");
+    }
 }
 
 .menu_dishes-card--open {
@@ -3250,9 +3270,20 @@ a:focus {
     flex-basis: 63%;
     position: relative;
     min-height: 11.7rem;
-    background: url("../images/dish-musk.png") center;
-    background-size: cover;
     padding: 1.44rem 1.16rem 0 1.83rem;
+    /*
+        &:after{
+            content: url('../images/dish-underline.png');
+            position: absolute;
+            bottom: -.8rem;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            @include breakpoint($screen-lg){
+                content: url('../images/dish-underline-sm.png');
+             }
+        }
+        */
 }
 
 @media (max-width: 992px) {
@@ -3272,21 +3303,6 @@ a:focus {
     .menu_dishes-card_info {
         padding: .38rem;
         min-height: 7.4rem;
-    }
-}
-
-.menu_dishes-card_info:after {
-    content: url("../images/dish-underline.png");
-    position: absolute;
-    bottom: -.8rem;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-@media (max-width: 992px) {
-    .menu_dishes-card_info:after {
-        content: url("../images/dish-underline-sm.png");
     }
 }
 
@@ -3871,7 +3887,7 @@ a:focus {
     overflow: hidden;
     padding-top: 5.72rem;
     padding-bottom: 2.27rem;
-    padding: 5.72rem 0 2.27rem;
+    padding: 5.72rem 1.2rem 2.27rem;
 }
 
 .photoreports:before {
@@ -3962,13 +3978,13 @@ a:focus {
 .photo-cards {
     position: relative;
     display: grid;
-    grid-template-areas: "1 2 3" "1 4 5";
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
 }
 
 @media (max-width: 576px) {
     .photo-cards {
-        grid-template-areas: "1 2" "3 4";
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -4003,8 +4019,15 @@ a:focus {
 }
 
 .photo-card--lg {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+@media (max-width: 576px) {
+    .photo-card--lg {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
 }
 
 .photo-card:hover, .photo-card:focus {
