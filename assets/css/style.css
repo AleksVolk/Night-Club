@@ -2512,6 +2512,11 @@ a:focus {
     height: 30px;
 }
 
+.footer_contacts-messengers .contact_item .contact_item-link--second svg {
+    margin-bottom: 1.5px;
+    margin-left: 2px;
+}
+
 .footer_contacts-messengers .contact_item:hover, .footer_contacts-messengers .contact_item:focus-within {
     outline: none;
     background-color: #FFFFFF;
@@ -2597,6 +2602,10 @@ a:focus {
     .footer .footer_oferta {
         margin-left: 0;
     }
+}
+
+.contacts_info .contacts-list_item {
+    padding-left: 58px;
 }
 
 .modal {
