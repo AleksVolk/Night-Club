@@ -1287,11 +1287,6 @@ body::after {
   align-items: center;
   z-index: 2;
 }
-.hero__title {
-  height: auto;
-  object-fit: cover;
-  filter: drop-shadow(0 0 100px rgba(189, 45, 67, 0.7));
-}
 @supports (width: clamp( 16.875rem , -0.3694444444rem  +  86.2222222222vw , 65.375rem )) {
   .hero__title {
     width: clamp( 16.875rem , -0.3694444444rem  +  86.2222222222vw , 65.375rem );
@@ -1302,8 +1297,14 @@ body::after {
     width: calc(16.875rem + 48.5 * (100vw - 20rem) / 56.25);
   }
 }
+.hero__title img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: drop-shadow(0 0 100px rgba(189, 45, 67, 0.7));
+}
 @media (max-width: 29.99875em) {
-  .hero__title {
+  .hero__title img {
     filter: drop-shadow(0 0px 26px rgba(189, 45, 67, 0.7));
   }
 }
