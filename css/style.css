@@ -129,6 +129,17 @@ body {
   min-width: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /*
 (i) Стили будут применяться ко 
 всем классам содержащим *__container
